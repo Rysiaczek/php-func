@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+nav{
+    padding-top: 10px;
+    max-height: 10vh;
+}
+nav ul{
+    text-align: right;
+    font-size: 0px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2%;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    padding: 20px 30px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+    
+
+}
+nav ul li a:hover{
+    border-bottom: 2px solid black;
+}
+nav ul li a.bta4{
+   background-color: royalblue;
+   border-radius: 20px;
+   border: 3px solid rgba(0, 0, 0, 0);
+   transition: 0.4s;
+}
+nav ul li a.bta4:hover{
+    background-color: white;
+    color: royalblue;
+    border: 3px solid royalblue;
+ }
+nav ul li a.bta5{
+   background-color: darkviolet;
+   border-radius: 20px;
+   border: 3px solid rgba(0, 0, 0, 0);
+   transition: 0.4s;
+}
+nav ul li a.bta5:hover{
+    background-color: white;
+    color: darkviolet;
+    border: 3px solid darkviolet;
+ }
+
+header{
+    min-height: 100vh;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5%;
+}
+.header-bta{
+    text-align: center;
+    margin-top: 5%;
+}
+#bta-input{
+    display: inline-block;
+    /* background-color: rgb(221, 31, 31); */
+    border: none;
+    color: rgba(0, 0, 0, 0);
+    width: 20%;
+    height: 50vh;
+    margin: 30px;
+}
+input.bta1{
+    background-image: url('src/zdj-zad1.jpg');
+}
+input.bta2{
+    background-image: url('src/zdj-zad2.jpg');
+}
+input.bta3{
+    background-image: url('src/zdj-zad3.jpg');
+}
+aside{
+    height: 20vh;
+    text-align: center;
+    margin:  0 10%;
+    transition: 3s;
+   
+}
+.content{
+    display: flex;
+    height: 20vh;
+}
+.zad3-section{
+    width: 40%;
+   
+}
+.zad3-content{
+    font-size: 2rem;
+    text-align: left;
+}
+.zad3-scrypt{
+    height: 100%;
+    font-size: 1.6rem;
+    text-align: left;
+}
+.zad2-content{
+    font-size: 1.8rem;
+}
+.form-zad2 input{
+    display: block;
+    
+}
+.form-zad2 p{
+    text-align: left;
+    font-size: 1.6rem;
+}
